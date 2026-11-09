@@ -1,0 +1,14 @@
+__pycache__/
+
+*.json
+*.jsonl
+*.csv
+*.png
+*.jpg
+*.xml
+*.txt
+*.log
+
+*.docx
+# Large local dataset archive
+/input_demo/originals/*.zip
