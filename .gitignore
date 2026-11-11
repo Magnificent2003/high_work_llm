@@ -1,5 +1,9 @@
 __pycache__/
+tests/
 
+.env
+.codex
+.venv/
 *.json
 *.jsonl
 *.csv
@@ -8,7 +12,7 @@ __pycache__/
 *.xml
 *.txt
 *.log
-
 *.docx
+
 # Large local dataset archive
 /input_demo/originals/*.zip
