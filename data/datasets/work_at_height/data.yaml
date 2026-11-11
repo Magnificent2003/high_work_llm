@@ -1,0 +1,13 @@
+# Paths are resolved relative to this file by scripts/train_yolo.py.
+path: .
+train: images/train
+val: images/valid
+test: images/test
+nc: 6
+names:
+  - mewp
+  - person
+  - harness
+  - helmet
+  - scaffolding
+  - ladder

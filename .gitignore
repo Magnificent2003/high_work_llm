@@ -1,5 +1,4 @@
 __pycache__/
-tests/
 
 .env
 .codex
@@ -16,3 +15,17 @@ tests/
 
 # Large local dataset archive
 /input_demo/originals/*.zip
+
+# Track source assets and dependency declarations despite legacy broad rules.
+!/prompts/*.txt
+!/requirements*.txt
+!/data/**/*.yaml
+
+# Datasets, generated evidence, labels, weights and run artifacts stay local.
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+!/data/**/*.yaml
+/outputs/**
+!/outputs/.gitkeep
+*.pt
